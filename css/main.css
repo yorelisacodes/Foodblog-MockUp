@@ -1,0 +1,97 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 15%;
+    color: rgb(117, 116, 116);
+}
+h1 a {
+    color:red;
+    font-size: 54px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+h2 a {
+    color:black;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+}
+article h4 a {
+    color: red;
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 45%;
+    width: 80%;
+}
+header>nav a {
+    color: lightgray;
+    font-size: 26px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px;
+    padding-right: 1%;
+}
+article h3 {
+    color: lightgray;
+    font-size: 26px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 0%;
+}
+article h2 {
+    margin-top: 0%;
+}
+article img {
+    max-width: 45%;
+    height: auto;
+    padding-top: -10%;
+    }
+header + article>img {
+    max-width: 45%;
+    height: 10%;
+}
+article::after {
+    content: " ";
+    display: block;
+    border-bottom: 0.3px solid lightgrey;
+    height: 3em;
+    margin-bottom: 2em;
+    padding-bottom: 5px;
+}
+/* paragraphs */
+article p::first-letter{
+    font-size: 75px;
+    color: lightgray;
+    font-weight: bold;
+    padding-bottom: 2px;
+    float: left;
+    margin-right: 2%;
+    font-weight: 100;
+}
+p{
+    max-width: 45%;
+    height: 10%;   
+}
+
+/*footer*/
+footer>nav a {
+    color: red;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 5px;
+    padding-right: 0.5%;
+    text-decoration: none;
+}
+footer>p{
+    color: lightgray;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 1%;
+}
